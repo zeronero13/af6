@@ -10,6 +10,7 @@ var hbs = require('hbs');
 var moment = require('moment');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
+var ormConfig = require('./config/waterline');
 
 hbs.registerHelper('formatDate', function(date, format) {
     return moment(date).format(format);
@@ -94,7 +95,7 @@ app.use(validator());
 app.use(setLocalsForLayout());
 
 var orm = new Waterline();
-var ormConfig = {
+/*var ormConfig = {
     adapters: {
         disk: diskAdapter
     },
@@ -106,7 +107,7 @@ var ormConfig = {
     defaults: {
         migrate: 'alter'
     }
-};
+};*/
 
 //
 app.use(bodyParser.urlencoded({
