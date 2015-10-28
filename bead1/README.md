@@ -73,20 +73,26 @@ Ingyenesen hírdetési oldal, ahol felhasználó egy gyors, és ingyenes regiszt
 
 #### Felhasználóifelület-modell
 1. Oldalvázlatok
-2. 
+  * Böngészés tételek között (docs/images/list_mockup.jpg)
 ![Böngészés tételek között](docs/images/list_mockup.jpg)
+
+  * Felhasználó bejelentkezése (docs/images/login_mockup.jpg)
 ![Felhasználó bejelentkezése](docs/images/login_mockup.jpg)
+
+  * Felhasználó hírdetls feltöltése (docs/images/upload_mockup.jpg)
 ![Felhasználó hírdetls feltöltése](docs/images/upload_mockup.jpg)
 
 2. Designterv (végső megvalósítás kinézete)
-    ...
+
     
 #### Osztálymodell
 1. Adatmodell, Adatbázisterv
-![Felhasználó hírdetés feltöltése](docs/images/models.jpg)
+  * Felhasználó hírdetés feltöltése (docs/images/models.png)
+![Felhasználó hírdetés feltöltése](docs/images/models.png)
     
 2. Állapotdiagram
-![Felhasználó bejelentkezése](docs/images/login_states.jpg)
+  * Felhasználó bejelentkezése (docs/images/login_states.png)
+![Felhasználó bejelentkezése](docs/images/login_states.png)
         
 #### Dinamikus működés
 1. Szekvenciadiagram    
@@ -96,11 +102,11 @@ Ingyenesen hírdetési oldal, ahol felhasználó egy gyors, és ingyenes regiszt
 ### Implementáció
 
 ####Fejlesztőeszközök
-**Fejlesztőeszközök:** C9
-**Kódtár, verzió kontrol:** Github
-**Fejlszetés technológiák:** Javascript, Node.js
-**Deploy teszteléshez:** Heroku
-**Node.js mellett használt modulok:**
+-**Fejlesztőeszközök:** C9
+-**Kódtár, verzió kontrol:** Github
+-**Fejlszetés technológiák:** Javascript, Node.js
+-**Deploy teszteléshez:** Heroku
+-**Node.js mellett használt modulok:**
   * Flash
   * Waterline, Sails
   * Express, Express-Session, Express-Validator 
