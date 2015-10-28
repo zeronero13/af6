@@ -99,18 +99,22 @@ Ingyenesen hírdetési oldal, ahol felhasználó egy gyors, és ingyenes regiszt
         
 #### Dinamikus működés
 1. Szekvenciadiagram    
-  * Egy hírdetés feltöltése (docs/images/create_item_diagram.svg)
-![Egy hírdetés feltöltése](docs/images/create_item_diagram.svg)
+  * Egy hírdetés feltöltése (docs/images/create_item_diagram.jpg)
+![Egy hírdetés feltöltése](docs/images/create_item_diagram.jpg)
 
 ### Implementáció
 
 ####Fejlesztőeszközök
 
--Fejlesztőeszközök: C9
--Kódtár, verzió kontrol: Github
--Fejlszetés technológiák: Javascript, Node.js
--Deploy teszteléshez: Heroku
--Node.js mellett használt modulok:
+Fejlesztőeszközök: C9
+
+Kódtár, verzió kontrol: Github
+
+Fejlszetés technológiák: Javascript, Node.js
+
+Deploy teszteléshez: Heroku
+
+Node.js mellett használt modulok:
   * Flash
   * Waterline, Sails
   * Express, Express-Session, Express-Validator 
@@ -183,11 +187,14 @@ A tesztek futtatása: **npm test**
   2. Letölteni becsomagolva githubról majd feltölteni
     
   **Szükséges "dependencies" telepítése**
+
   npm install 
     
   **Tesztek lefuttatása**
+
   npm test
   npm run watch-test
     
   **App elindítása**
+  
   npm start
