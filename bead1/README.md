@@ -2,8 +2,11 @@
 ### Első beadandó feladat
 
 Csoport: AF 6. csoport
+
 Neptun: DF2KIE
+
 [GitHub link] (https://github.com/zeronero13/af6/tree/master/bead1)
+
 [Heroku link] (happehardver.herokuapp.com)
     
 **Feladat:**
@@ -96,17 +99,18 @@ Ingyenesen hírdetési oldal, ahol felhasználó egy gyors, és ingyenes regiszt
         
 #### Dinamikus működés
 1. Szekvenciadiagram    
-        
+  * Egy hírdetés feltöltése (docs/images/create_item_diagram.svg)
 ![Egy hírdetés feltöltése](docs/images/create_item_diagram.svg)
 
 ### Implementáció
 
 ####Fejlesztőeszközök
--**Fejlesztőeszközök:** C9
--**Kódtár, verzió kontrol:** Github
--**Fejlszetés technológiák:** Javascript, Node.js
--**Deploy teszteléshez:** Heroku
--**Node.js mellett használt modulok:**
+
+-Fejlesztőeszközök: C9
+-Kódtár, verzió kontrol: Github
+-Fejlszetés technológiák: Javascript, Node.js
+-Deploy teszteléshez: Heroku
+-Node.js mellett használt modulok:
   * Flash
   * Waterline, Sails
   * Express, Express-Session, Express-Validator 
@@ -150,26 +154,23 @@ A tesztek futtatása: **npm test**
 
 #### Egység tesztelés (Mocha, Chai segítségével)
 **Teszteljük a "user" model-en végezhető müveletek (user.test.js):**
-  * Felhasználó létrehozása
-  * Felhasználó törlése
-  * Egy felhasználó  megkeresése
-  * Felhasználó modósítása
-  * Felhasználó tárolt és által megadott jelszó összehasonlítása, helyességének vizsgálata
+
+* Felhasználó létrehozása
+* Felhasználó törlése
+* Egy felhasználó  megkeresése
+* Felhasználó modósítása
+* Felhasználó tárolt és által megadott jelszó összehasonlítása, helyességének vizsgálata
     
 
 ####Funkciónális teszt (Selenium IDE Firefox plugin)
-  **Funkciónális teszt:**
-  **+ Teszt case:** /test/Selenium/basic test case
+**Funkciónális teszt:**
++ Teszt case: /test/Selenium/basic test case
   *Kezdőlap megjelenés
-    
   *Böngészés lapra ugrás
   *Böngészés lapon keresés
-    
   *Oldalra való regisztráció
   *Oldalra való belépés
-    
   *Termék feltöltés
-    
   *Saját termékek között keresés
   *Termék szerkesztése
   *Termék törlése
