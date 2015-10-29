@@ -1,3 +1,10 @@
+#Beadandó nem végleges változata
+####A Heroku-ra feltöltött változat megtalálható a "happehardver" repo alatt 
+
+
+
+
+
 #   Alkalmazások fejlesztése gyakorlat
 ### Első beadandó feladat
 
@@ -7,7 +14,7 @@ Neptun: DF2KIE
 
 [GitHub link] (https://github.com/zeronero13/af6/tree/master/bead1)
 
-[Heroku link] (happehardver.herokuapp.com)
+[Heroku link] (https://happehardver.herokuapp.com/ | https://git.heroku.com/happehardver.git)
     
 **Feladat:**
 Ingyenesen hírdetési oldal, ahol felhasználó egy gyors, és ingyenes regisztráció után hírdetések adhat fel.
@@ -167,8 +174,10 @@ A tesztek futtatása: **npm test**
     
 
 ####Funkciónális teszt (Selenium IDE Firefox plugin)
+
 **Funkciónális teszt:**
-+ Teszt case: /test/Selenium/basic test case
+
+Teszt case: /test/Selenium/basic test case
   *Kezdőlap megjelenés
   *Böngészés lapra ugrás
   *Böngészés lapon keresés
